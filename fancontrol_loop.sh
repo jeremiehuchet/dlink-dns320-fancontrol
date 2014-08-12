@@ -3,6 +3,6 @@
 DELAY="5m"
 
 while true ; do
-  /ffp/opt/fancontrol/fancontrol_check.sh
+  fancontrol_custom_check
   sleep $DELAY
 done
